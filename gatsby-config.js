@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Roar - Voice Assitant for Jira',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  pathPrefix: `/gatsby-test`,
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-emotion',
+  ],
 }
