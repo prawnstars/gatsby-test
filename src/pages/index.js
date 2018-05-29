@@ -6,7 +6,6 @@ const IndexPage = () => (
     <h1 style={{color: `tomato`}}>Hello people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
     <Link to="/page-2/">Go to page 2</Link>
   </div>
 )
