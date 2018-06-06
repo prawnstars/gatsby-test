@@ -1,0 +1,26 @@
+a {
+  color: $primary;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: lighten($primary, 10%) !important;
+  }
+
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+  }
+}
+
+.input {
+  font-weight: 300 !important;
+}

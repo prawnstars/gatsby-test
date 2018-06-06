@@ -1,0 +1,45 @@
+// Global styling for this theme
+
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+}
+
+body {
+  @include body-font;
+  height: 100%;
+  position: relative;
+  background: url('/img/bg-mobile-fallback.jpg');
+  background-size: cover;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: none;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: $white;
+  opacity: .75;
+  z-index: -1;
+}

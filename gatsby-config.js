@@ -4,7 +4,6 @@ module.exports = {
   },
   pathPrefix: '/gatsby-test',
   plugins: [
-    'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-google-analytics',
@@ -13,6 +12,13 @@ module.exports = {
         head: true,
         anonymize: true,
         respectDNT: true,
+      },
+    },
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        precision: 8,
       },
     },
   ],
